@@ -28,7 +28,7 @@ nav:
 #Author config
 author:
     name: 小火
-    email: zcknuaa@gmail.com
+    email: cknuaa@gmail.com
     imageLink: 
     simpleIntro: 小火实验室
     detailIntro:
@@ -81,4 +81,4 @@ disqus:
 
 duoshuo:
   config: true
-  id: zhanxin
+  id: filmck
