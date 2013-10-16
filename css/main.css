@@ -95,7 +95,6 @@ color:#444;
   min-height: 600px; 
   height: auto;
   margin-bottom:2em;
-  border-bottom: 4px double rgba(0, 0, 0, 0.1);
   }
   
 .main .article p, blockquote {
@@ -234,11 +233,13 @@ color:#444;
     color: rgba(255, 61, 0, 0.5);
 }  
    
+.main .article {   
+border-bottom: 4px double rgba(0, 0, 0, 0.1);
+}  
 .main .article img {   
     position: relative;
     max-width: 100%;   
-}  
-   
+}    
    
 .main .article .more { 
     position: absolute;
@@ -289,7 +290,7 @@ color:#444;
 .main .pagination {    
     line-height: 32px; 
     padding-top: 20px; 
-   
+    border-bottom: 4px double rgba(0, 0, 0, 0.1);
 }  
 .main .pagination li { 
     float: left;  
@@ -508,6 +509,7 @@ color:#444;
 }  
 .main .article .article-previous {  
     margin: 20px 0;    
+        
     padding: 10px 0;   
     position: relative;
 }  
