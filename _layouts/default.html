@@ -46,22 +46,6 @@
                 <h1 class="logo">
                     <a href="{{ site.url }}"><i class="icon-anchor"></i></a>
                 </h1>
-                <nav class="nav">
-                    <ul>
-                        {% for link in site.nav %}
-                        {% assign active = nil %}
-                        {% if page.url == link.url%}
-                          {% assign active = 'nav-item-active' %}
-                        {% endif %}
-                        <li class="nav-item {{ active }}">
-                            <a href="{{ site.url }}{{ link.url }}">
-                                {{ link.text }}
-                            </a>
-                            {{ indicator }}
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </nav>
                 <div class="follow">
                     {% for link in site.follow %}
                     <a href="{{ link.url }}" target="_blank"><i class="{{ link.class }}"></i></a>
@@ -69,23 +53,28 @@
                 </div>
             </div>
         </div>
-        <div class="contain fn-clear">
+        <nav class="nav">
+            <ul>
+                {% for link in site.nav %}
+                {% assign active = nil %}
+                {% if page.url == link.url%}
+                  {% assign active = 'nav-item-active' %}
+                {% endif %}
+                <li class="nav-item {{ active }}">
+                    <a href="{{ site.url }}{{ link.url }}">
+                        {{ link.text }}
+                    </a>
+                    {{ indicator }}
+                </li>
+                {% endfor %}
+            </ul>
+        </nav>        
+		<div class="contain fn-clear">
             <div class="container fn-clear">
                 <div class="main">
                     {{ content }}
                 </div>
                 <div class="aside">
-                    <div class="aside-contact">
-                        <h4 class="title">About me</h4>
-                        <div class="det fn-clear">
-                            <div class="det-image">
-                                <img src="{{ site.author.imageLink }}" />
-                            </div>
-                            <div class="det-text">
-                                <p>{{ site.author.simpleIntro }}</p>
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="aside-item">
                         <h4 class="title">Recent Posts</h4>
@@ -114,7 +103,7 @@
         </div>
         <div class="foot">
             <div class="footer">
-                <p>Copyright 2013. All rights reserved. Powered by <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, Design by <a href="http://www.zhanxin.info" target="_blank">zhanxin.info</a>.</p>
+                <p><a href="http://celavie.me" target="_blank">♨ 小火实验室</a></p>
             </div>
         </div>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>

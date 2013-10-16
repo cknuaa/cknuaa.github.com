@@ -5,7 +5,6 @@ title: Archives
 <div class="article">
     <h3 class="title">{{ page.title }}</h3>
     {% capture post_year1 %}{{ 'now' | date: '%Y' }}{% endcapture %}
-    <ul class="article-year" data-year="{{ post_year1 }}">
         {% for post in site.posts %}
             {% capture post_year2 %}{{ post.date | date: '%Y' }}{% endcapture %}
             {% if post_year1 != post_year2 %}

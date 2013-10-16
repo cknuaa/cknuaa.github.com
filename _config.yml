@@ -1,5 +1,5 @@
 markdown: redcarpet
-pygments: true
+pygments: false
 paginate: 8
 
 safe:  false
@@ -8,21 +8,19 @@ safe:  false
 title: 实验室
 description: Just another Jekyll theme design and code by zhanxin.info.
 keywords: 实验室
-url: http://celavie.me/
+url: http://localhost:4000/
 feed: /atom.xml
-favicon: http://jekyllrb.com/favicon.png
+favicon: http://ck-db.qiniudn.com/605.ico
 
 #Nav config
 nav:
-  - text: 首页
+  - text: 记录 
     url: /index.html
-  - text: 分类目录 
-    url: /categories.html
-  - text: 文章归档
+  - text: 实验室
     url: /archives.html
-  - text: 联系我
+  - text: 我的故事
     url: /contact.html
-  - text: 友情链接
+  - text: 喜欢的地方
     url: /links.html
 
 #Author config
@@ -41,12 +39,8 @@ follow:
     url: /atom.xml
   - class: icon-weibo
     url: http://weibo.com/tonyck
-  - class: icon-renren
-    url: http://renren.com
   - class: icon-github-alt
     url: http://github.com/cknuaa
-  - class: icon-twitter
-    url: http://twitter.com/
   - class: icon-google-plus
     url: http://google.com
 
