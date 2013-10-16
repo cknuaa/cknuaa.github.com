@@ -234,7 +234,7 @@ color:#444;
 }  
    
 .main .article {   
-border-bottom: 4px double rgba(0, 0, 0, 0.1);
+border-bottom: 4px rgba(0, 0, 0, 0.1);
 }  
 .main .article img {   
     position: relative;
@@ -290,7 +290,7 @@ border-bottom: 4px double rgba(0, 0, 0, 0.1);
 .main .pagination {    
     line-height: 32px; 
     padding-top: 20px; 
-    border-bottom: 4px double rgba(0, 0, 0, 0.1);
+    border-bottom: 4px rgba(0, 0, 0, 0.1);
 }  
 .main .pagination li { 
     float: left;  
