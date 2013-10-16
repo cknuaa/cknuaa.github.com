@@ -95,6 +95,7 @@ color:#444;
   min-height: 600px; 
   height: auto;
   margin-bottom:2em;
+  border-bottom: 4px double rgba(0, 0, 0, 0.1);
   }
   
 .main .article p, blockquote {
@@ -507,7 +508,6 @@ color:#444;
 }  
 .main .article .article-previous {  
     margin: 20px 0;    
-    border-top: 4px double rgba(0, 0, 0, 0.1);    
     padding: 10px 0;   
     position: relative;
 }  
