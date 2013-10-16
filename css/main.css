@@ -515,7 +515,7 @@ border-bottom: 4px rgba(0, 0, 0, 0.1);
 }  
 .main .article .article-previous .prev,     
 .main .article .article-previous .next {    
-    display: inline-block;   
+    display: block;   
     height: 32px; 
     line-height: 32px; 
     padding: 0 10px;   
