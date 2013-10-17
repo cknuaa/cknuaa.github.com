@@ -10,10 +10,9 @@ category: "lib"
 <p>前端借鉴了ProwerV6的主题，文章页面基于TYPO.CSS的排版，并修改为简单的宽度适应页面，单列大分辨率布局，
 为了以后插1000px边长的方便。主题名字就叫SmallFire I</p>
 </h5>
-<a href="http://www.flickr.com/photos/25745451@N07/5150281447/" title="Flickr 上 小火﹏~~﹋ 的 10"><img src="https://farm2.staticflickr.com/1066/5150281447_9fc9c5391e_b.jpg" width="1024" height="682" alt="10"></a>
 
 <h4>TYPO.CSS样式是为了一致化浏览器排版效果，构建最适合中文阅读的网页排版</h4>
-
+<a href="http://www.flickr.com/photos/25745451@N07/5150281447/" title="Flickr 上 小火﹏~~﹋ 的 10"><img src="https://farm2.staticflickr.com/1066/5150281447_9fc9c5391e_b.jpg" width="1024" height="682" alt="10"></a>
 <ol id="table">
     <li><a href="#section1">关于 TYPO.CSS</a></li>
     <li><a href="#section2">排版实例</a>
