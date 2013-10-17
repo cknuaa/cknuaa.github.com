@@ -1,13 +1,17 @@
 ---
 layout: post
-title:  TYPO.CSS
-date:   2012-08-10 12:54:11
+title:  基于TYPO.CSS的排版样式
+date:   2013-10-17 22:15:00
 category: "lib"
 ---
+<h2 id="tagline">
+<p>新网站的框架终于弄好了，很多细节还没有做，流浪到了Github的我，准备在这里停留一段时间。</p>
+<p>前端借鉴了ProwerV6的主题，文章页面基于TYPO.CSS的排版，并修改为简单的宽度适应页面，单列大分辨率布局，
+为了以后插1000px边长的方便。主题名字就叫SmallFire I</p>
+</h4>
+<a href="http://www.flickr.com/photos/25745451@N07/5150281447/" title="Flickr 上 小火﹏~~﹋ 的 10"><img src="https://farm2.staticflickr.com/1066/5150281447_9fc9c5391e_b.jpg" width="1024" height="682" alt="10"></a>
 
-<h2 id="tagline">一致化浏览器排版效果，构建最适合中文阅读的网页排版,
-一致化浏览器排版效果，构建最适合中文阅读的网页排版
-一致化浏览器排版效果，构建最适合中文阅读的网页排版</h2>
+<h4>一致化浏览器排版效果，构建最适合中文阅读的网页排版</h4>
 
 <ol id="table">
     <li><a href="#section1">关于 TYPO.CSS</a></li>
