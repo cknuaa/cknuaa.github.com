@@ -1,12 +1,12 @@
 markdown: redcarpet
 pygments: false
-paginate: 8
+paginate: 6
 
 safe:  false
 
 #Site config
 title: 实验室
-description: Just another Jekyll theme design and code by zhanxin.info.
+description: Just another Jekyll theme design and code by Small-Fire.
 keywords: 实验室
 url: http://celavie.me
 feed: /atom.xml
@@ -14,8 +14,8 @@ favicon: http://ck-db.qiniudn.com/605.ico
 
 #Nav config
 nav:
-  - text: 记录 
-    url: /index.html
+  - text: 日记 
+    url: /blog.html
   - text: 实验室
     url: /archives.html
   - text: 我的故事
