@@ -15,13 +15,13 @@ favicon: http://ck-db.qiniudn.com/605.ico
 #Nav config
 nav:
   - text: 日记 
-    url: /blog.html
+    url: /zblog
   - text: 实验室
-    url: /archives.html
+    url: /zlib
   - text: 我的故事
-    url: /contact.html
+    url: /zaboutme
   - text: 喜欢的地方
-    url: /links.html
+    url: /zlinks
 
 #Author config
 author:
