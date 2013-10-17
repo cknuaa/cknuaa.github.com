@@ -653,11 +653,10 @@ float:right;
 /* }  */
 /*--- foot --- */
  .foot {   
-    width: 100%;  
+    width: 80%;  
     height: 100px;
 }
 .footer {
-    width: 960px;
     padding-top: 20px;
     height: 80px;
     margin: 0 auto;
