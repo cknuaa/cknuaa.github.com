@@ -220,7 +220,7 @@ color:#444;
 list-style-type: decimal;
 }
 .main .article pre:after { 
-    content: "</>";
+    content: "❝";
     width: 32px;
     height: 32px;
     display: block;

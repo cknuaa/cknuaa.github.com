@@ -1,5 +1,5 @@
 markdown: redcarpet
-pygments: true
+pygments: false
 paginate: 8
 
 safe:  false
