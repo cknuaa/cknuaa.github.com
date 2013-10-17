@@ -626,7 +626,7 @@ list-style-type: decimal;
 .aside {
     width: 80%;
     margin:0 auto;
-    min-height: 300px;
+    min-height: 200px;
     height: auto;
  }  
 .aside-rp {
