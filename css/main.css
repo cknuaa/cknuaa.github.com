@@ -634,6 +634,7 @@ list-style-type: decimal;
 /* }  */
  .aside {
     width: 80%;
+    margin:0 auto;
     min-height: 500px;
     height: auto;
  }  
