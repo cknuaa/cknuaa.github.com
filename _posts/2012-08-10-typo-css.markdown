@@ -168,7 +168,7 @@ category: "0"
 <hr />
 <p><abbr title="法国作家罗切福考尔德">La Racheforcauld</abbr> said: <mark>"Few things are impossible in themselves; and it is often for want of will, rather than of means, that man fails to succeed".</mark> You just need to follow the browser's behavior, and set a right <code>margin</code> to it。it will works nice as the demo you're watching now. The following code is the best way to render typo in Chinese:</p>
 
-{% highlight css %}
+<pre class="prettyprint">
 /* 标题应该更贴紧内容，并与其他块区分，margin 值要相应做优化 */
 h1,h2,h3,h4,h5,h6 {
     line-height:1;font-family:Arial,sans-serif;margin:1.4em 0 0.8em;
@@ -183,7 +183,7 @@ h5,h6{font-size:1em;}
 .typo p, .typo pre, .typo ul, .typo ol, .typo dl, .typo form, .typo hr {
     margin:1em 0 0.6em;
 }
-{% endhighlight %}
+</pre>
 
 <h3 id="section3">三、附录</h3>
 

@@ -26,6 +26,7 @@
         <link href='http://fonts.googleapis.com/css?family=Spirax' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="{{ site.url }}/css/syntax.css">
         <link rel="stylesheet" href="{{ site.url }}/css/main.css">
+		<link rel="stylesheet" href="{{ site.url }}/highlighter/desert.css">
         {% if site.googleAnaly.config %}
         <script type="text/javascript">
             var _gaq = _gaq || [];
@@ -74,7 +75,6 @@
                 <div class="main">
                     {{ content }}
                 </div>
-
                 <div class="aside">
 
                     <div class="aside-item">
@@ -136,5 +136,12 @@
                 {% endif %}
             {% endif %}
         {% endif %}
+      <script src="{{ site.url }}/highlighter/prettify.js"></script>  
+<script type="text/javascript">
+    $(function() {
+      $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto');
+      window.prettyPrint && prettyPrint();
+    });
+  </script>
     </body>
 </html>

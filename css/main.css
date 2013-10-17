@@ -212,27 +212,14 @@ color:#444;
     background: rgba(255, 255, 255, 0);   
     text-indent: 6px;  
 }  
-   
-.main .article pre {
-background-color:#000;
-padding:15px;
-overflow:auto;
-margin-bottom:40px;
-font-size:14px;
-border: 1px solid #eee;
--webkit-border-radius: 4px 4px 4px 4px;
--moz-border-radius: 4px 4px 4px 4px;
-border-radius: 4px 4px 4px 4px;
-color:#b9bdb6;
-margin-top:-20px;
-}
 
- 
-.main .highlight {
+.main .article pre {
     position: relative;
-}  
-   
-.main .highlight pre:after { 
+}     
+.main .article pre li{
+list-style-type: decimal;
+}
+.main .article pre:after { 
     content: "</>";
     width: 32px;
     height: 32px;
