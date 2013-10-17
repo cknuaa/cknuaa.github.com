@@ -219,7 +219,7 @@ color:#444;
 .main .article pre li{
 list-style-type: decimal;
 }
-.main .article pre:after { 
+.main .article .prettyprint:after { 
     content: "❝";
     width: 32px;
     height: 32px;
@@ -227,8 +227,6 @@ list-style-type: decimal;
     position: absolute;
     top: 0;
     left: -62px;  
-
-
     font-size: 24px;   
     line-height: 32px; 
     text-align: center;
