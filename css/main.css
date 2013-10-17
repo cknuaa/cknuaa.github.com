@@ -632,10 +632,10 @@ list-style-type: decimal;
 /*     font-family: 'Spirax', cursive; */
 /*     text-transform: uppercase;      */
 /* }  */
- .aside {
+.aside {
     width: 80%;
     margin:0 auto;
-    min-height: 500px;
+    min-height: 300px;
     height: auto;
  }  
 .aside-rp {
