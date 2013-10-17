@@ -632,16 +632,17 @@ list-style-type: decimal;
 /*     font-family: 'Spirax', cursive; */
 /*     text-transform: uppercase;      */
 /* }  */
-/* .aside-item .list {    */
-/*     padding: 10px 0;   */
-/*     margin-bottom: 10px;*/
-/*     font-size: 14px;   */
-/*     font-family: Arial;*/
-/*     list-style-type: disc;   */
-/*     line-height: 24px; */
-/*     padding-left: 18px;*/
-/*     text-decoration: none;   */
-/* }  */
+ .aside {
+    width: 80%;
+    min-height: 500px;
+    height: auto;
+ }  
+.aside-rp {
+float:left;
+ }  
+.aside-link {
+float:right;
+ } 
 /* .aside-item .list a {  */
 /*     color: #91736b;    */
 /*     text-decoration: none;   */
