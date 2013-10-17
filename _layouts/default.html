@@ -55,10 +55,14 @@
             </div>
         </div>
         <nav class="nav">
+		<p>{% 'page.url' %}</p>
+		<p>{% 'link.url' %}</p>
+		
             <ul>
                 {% for link in site.nav %}
                 {% assign active = nil %}
                 {% if page.url contains link.url %}
+				
                   {% assign active = 'nav-item-active' %}
                 {% endif %}
                 <li class="nav-item {{ active }}">
