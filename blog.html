@@ -3,17 +3,31 @@ layout: default
 title: 小火
 keywords: 小火实验室, 涓滴意念
 ---
-<div class="article">
-    <h3 class="title">{{ page.title }}</h3>
-    {% capture post_year1 %}{{ 'now' | date: '%Y' }}{% endcapture %}
-        {% for post in site.posts %}
-            {% capture post_year2 %}{{ post.date | date: '%Y' }}{% endcapture %}
-            {% if post_year1 != post_year2 %}
-                {% assign post_year1 = post_year2 %}
-    </ul>
-    <ul class="article-year" data-year="{{ post_year1 }}">
-            {% endif %}
-        <li class="fn-clear"><span>{{ post.date |  date: '%b %d' }}</span><a href="{{site.url}}{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-    </ul>
-</div>
+{% for post in paginator.posts %}
+    <div class="article">
+        <h3 class="title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+        <article class="rexp">
+            <p>{{ post.excerpt }}</p>
+        </article>
+        <a href="{{ site.url }}{{ post.url }}" class="more"><i class="icon-fire"></i></a>
+        <div class="info">
+            <span class="info-title"><i class="icon-pencil"></i> 发布于: </span>
+            <span class="info-date">{{ post.date | date: " %Y 年 %m 月 %d 日" }}</span>
+        </div>
+    </div>
+{% endfor %}
+<!--B导航-->
+{% if paginator.total_pages > 1 %}
+    <nav class="pagination fn-clear">
+        <span class="pagination-icon"><i class=" icon-copy"></i></span>
+        <ul class="pagination-list">
+            {% for page in (1..paginator.total_pages) %}
+                {% if page == paginator.page %}
+                    <li class="current"><a href="javascript:void(0);">{{ page }}</a></li>
+                {% else %}
+                    <li><a href="{{ site.url }}/{%if page > 1 %}page{{ page }}/{% endif %}">{{ page }}</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </nav>
+{% endif %}
