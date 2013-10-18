@@ -44,7 +44,7 @@ h6 {font-size:1em;} */
 .header,.nav ul,.main{width:80%; margin:0 auto; max-width:1024px;}
 
 /* --- head --- */
-.head {background:#0067aa url(../images/blue_bg.png) repeat; border-bottom:1px solid #005b97; box-shadow:0 1px 5px #003f68; width:100%; padding:5% 0; color:#90d5ff; text-shadow:1px 1px #005b97; z-index:1; position:relative;}
+.head {background:#0067aa url(../images/blue_bg.png) repeat; border-bottom:1px solid #005b97; box-shadow:0 1px 5px #003f68; width:100%; padding:3% 0; color:#90d5ff; text-shadow:1px 1px #005b97; z-index:1; position:relative;}
 .head h1 {font-size:2em; margin-bottom:0.6em;}
 .head h1 a {color:#fff; text-decoration:none;}
 .head h2 {font-size:1em; font-weight:400; margin-bottom:0;}
@@ -68,10 +68,12 @@ color:#444;
  }
  .follow {
      float: right;
-     width: 270px;
+     width: 200px;
      padding-top: 0px;
      height: 30px;
      text-align: center;
+     margin-right: -70px;
+     margin-bottom: -30px;
  }
  .follow a {
      text-decoration: none;
@@ -79,13 +81,12 @@ color:#444;
      width: 30px;
      height: 30px;
      line-height: 30px;
-   
      display: block;
      float: left;
      font-size: 16px;
      border-radius: 60px;
      vertical-align: middle;
-     margin-right: 10px;
+
  }  
  .follow a:hover {
      color: rgba(255, 255, 255, 0.98);
