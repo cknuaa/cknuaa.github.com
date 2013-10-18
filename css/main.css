@@ -241,7 +241,7 @@ list-style-type: decimal;
     font-size: 32px;   
     line-height: 32px; 
     text-align: center;
-    color: rgba(255, 255, 255, 1);
+    color: rgba(128, 128, 128, 1);
 }  
 .main .article .more:hover { 
     border-bottom: none;
