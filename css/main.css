@@ -237,10 +237,10 @@ list-style-type: decimal;
     height: 32px; 
     display: block;    
     top: 0;
-    left: -62px;  
+    left: -10%;  
     text-decoration: none;   
-    font-size: 32px;   
-    line-height: 32px; 
+    font-size: 150%;   
+    line-height: 150%; 
     text-align: center;
     color: rgba(128, 128, 128, 1);
 }  
