@@ -12,9 +12,6 @@ comment: true
             <p>{{ site.author.simpleIntro }}</p>
             {{ site.author.detailIntro }}
         </div>
-        <div class="about-image">
-            <img src="{{ site.author.imageLink }}" />
-        </div>
     </div>
     <div class="fn-clear"></div>
     <div class="social">
@@ -24,7 +21,7 @@ comment: true
     </div>
     <div class="fn-clear"></div>
     <div class="contact">
-        <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+        可以用<a href="mailto:{{ site.author.email }}">Email</a>联系我。
     </div>
     <div class="comment">
         {% if site.disqus.config %}
