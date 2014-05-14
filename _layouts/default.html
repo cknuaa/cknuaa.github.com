@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:wb="http://open.weibo.com/wb">
     <head>
         <!--
          **
@@ -29,6 +29,7 @@
         <link rel="stylesheet" href="{{ site.url }}/css/main.css">
 		<link rel="stylesheet" href="{{ site.url }}/highlighter/desert.css">
         {% if site.googleAnaly.config %}
+        <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
         <script type="text/javascript">
             var _gaq = _gaq || [];
             _gaq.push(['_setAccount', '{{ site.googleAnaly.id }}']);
