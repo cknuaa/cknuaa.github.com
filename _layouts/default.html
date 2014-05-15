@@ -44,18 +44,8 @@
         {% endif %}
     </head>
     <body>
-        <div class="head fn-clear">
-            <div class="header">
-                <h1 class="logo">
-                    <a href="{{ site.url }}"><i class="icon-anchor"></i></a>
-                </h1>
-                <div class="follow">
-                    {% for link in site.follow %}
-                    <a href="{{ link.url }}" target="_blank"><i class="{{ link.class }}"></i></a>
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
+        <div id="wb_follow_btn" ></div>
+
         <nav class="nav">
 
 		
@@ -148,5 +138,17 @@
       window.prettyPrint && prettyPrint();
     });
   </script>
+<script type="text/javascript">  
+     WB2.anyWhere(function(W){
+    W.widget.followButton({
+        'nick_name': '小火Run',  //用户昵称
+        'id': "wb_follow_btn",
+        'show_head' : true, //是否显示头像
+        'show_name' : true, //是否显示名称
+        'show_cancel': true //是否显示取消关注按钮
+    });
+}); 
+</script>  
+  
     </body>
 </html>
