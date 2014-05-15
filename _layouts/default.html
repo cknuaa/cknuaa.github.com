@@ -59,7 +59,9 @@
                 <h1 class="logo">
                     <a href="{{ site.url }}"><i class="icon-anchor"></i></a>
                 </h1>
-                <div id="wb_follow_btn" ></div>
+                <div id="wb_follow_btn" >
+                     <wb:follow-button uid="2991975565" type="red_1" width="67" height="24" ></wb:follow-button>
+                </div>
                 <div class="follow">
                     {% for link in site.follow %}
                     <a href="{{ link.url }}" target="_blank"><i class="{{ link.class }}"></i></a>
