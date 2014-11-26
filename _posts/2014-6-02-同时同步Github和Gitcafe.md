@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  同时同步Github和Gitcafe
-date:   2014-6-02 20:40:29
+date:   2014-6-02 20:41:29
 category: “blog”
 ---
 
