@@ -6,7 +6,7 @@ category: "blog"
 ---
 
 在本地项目仓库中.git文件夹中的config文件中添加
-<<<<<<< HEAD
+
 
     [remote "cafe"]
     url = git@gitcafe.com:cknuaa/cknuaa.git
