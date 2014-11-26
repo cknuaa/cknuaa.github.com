@@ -2,8 +2,9 @@
 layout: post
 title:  同时同步Github和Gitcafe
 date:   2014-6-02 20:40:29
-category: “blog”
+category: "blog"
 ---
+
 在本地项目仓库中.git文件夹中的config文件中添加
 <<<<<<< HEAD
 
