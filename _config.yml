@@ -8,13 +8,13 @@ safe:  false
 title: 实验室
 description: Just another Jekyll theme design and code by Small-Fire.
 keywords: 小火实验室
-url: http://isaw.xyz
+url: http://celavie.me
 feed: /atom.xml
 favicon: http://ck-db.qiniudn.com/605.ico
 
 #Nav config
 nav:
-  - text: 日记 
+  - text: 日记
     url: /zblog
   - text: 实验室
     url: /zlib
@@ -27,7 +27,7 @@ nav:
 author:
     name: 小火
     email: cknuaa@gmail.com
-    imageLink: 
+    imageLink:
     simpleIntro: 小火实验室
     detailIntro:
       <p>Jekyll 是一个简洁的、特别针对博客平台的 静态网站 生成器。它使用一个模板目录作为网站布局的基础框架，并在其上运行 Textile 、 Markdown 或 Liquid 标记语言的转换器，最终生成一个完整的静态Web站点，可以被放置在Apache或者你喜欢的其他任何Web服务器上。它同时也是 GitHub Pages 、一个由 GitHub 提供的用于托管项目主页或博客的服务，在后台所运行的引擎。</p>
